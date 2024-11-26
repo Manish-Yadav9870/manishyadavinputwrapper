@@ -1,0 +1,46 @@
+.App {
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 85vh;
+  margin: auto;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+}
+.Child_Cont_input{
+  /* border: 1px solid red; */
+  width: 27%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+ padding: 10px;
+ background-color: rgb(209, 199, 199);
+}
+.Child_Cont_input input{
+  padding: 10PX;
+  border-radius: 50px;
+  text-align: center;
+  border: 1px solid rgb(209, 199, 199);
+}
+.Child_Cont_Btn{
+  /* border: 1px solid red; */
+  width: 27%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  gap:100px;
+ padding: 10px;
+ background-color: rgb(209, 199, 199);
+
+}
+.Child_Cont_Btn button{
+  padding: 10PX;
+  border-radius: 50px;
+  border: none;
+} 
+.Child_Cont_Btn button:hover{
+  cursor: pointer;
+}
